@@ -1,0 +1,82 @@
+.title{
+    text-align: center;
+}
+
+.row {
+    display: flex;
+  }
+  
+.message_list {
+width: 70%;
+margin: 5px 10px;
+padding: 10px;
+border: 1px solid white;
+border-radius: 5px;
+}
+
+.nametag{
+    float: right;
+    font-weight: 100;
+    color: bisque;
+}
+
+.chatbox_user-list{
+    width: 30%;
+    margin: 5px 10px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+input{
+    width: 90%;
+    font-size: 20px;
+    padding: 10px;
+    background: transparent;
+    border: 1px groove white;
+    color: white;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+
+button{
+    width: 100px;
+    height: 42px;
+    border-radius: 10px;
+    border: 0px;
+    margin-left: 2px;
+    background-color: yellowgreen;
+    font-size: 18px;
+    color: white;
+}
+
+.name{
+    position:absolute;
+    margin-top: 10px;
+}
+
+.message{
+    margin-left: 50px;
+    background-color: whitesmoke;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+.name-others{
+    position:absolute;
+    margin-left: 57%;
+    margin-top: 10px;
+}
+
+.message-others{
+    margin-right: 100px;
+    background-color: whitesmoke;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
